@@ -12,7 +12,7 @@ endif()
 
 # remove ndebug from flags for bitcoind release/relwithdebinfo to work
 add_definitions(-UNDEBUG)
-foreach (flags
+foreach (flagss
     CMAKE_CXX_FLAGS_RELEASE
     CMAKE_CXX_FLAGS_RELWITHDEBINFO
     CMAKE_CXX_FLAGS_MINSIZEREL
